@@ -17,6 +17,7 @@ To use
       -  MacOS-> brew install git, 
       - Linux->sudo apt install git-all, 
       - Windows The most official build is available for download on the Git website. Just go to https://git-scm.com/download/win
+*  Once Github is installed on your machine run: git clone https://github.com/jacobbickus/usefulScripts.git
     
 To Run
 ==
