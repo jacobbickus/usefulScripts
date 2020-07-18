@@ -46,7 +46,7 @@ if [ "$REPONAME" != "cancel" ];
         eval "$VAR7"
         VAR8="git remote add newRepoSetup https://github.com/$USERNAME/$REPONAME"
         echo "$VAR8"
-        eval "$VAR8" || echo "Origin already existed in this file/directory"
+        eval "$VAR8" || echo "remote newRepoSetup already existed in this file/directory"
         git push -u newRepoSetup master || echo "FATAL ERROR PUSH FAILED"
         echo "Finished."
     
